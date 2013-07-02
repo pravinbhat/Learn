@@ -38,6 +38,7 @@ public class PersonServiceTest {
 	 */
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
+		System.out.println("In setUpBeforeClass !");
 	}
 
 	/**
@@ -45,6 +46,7 @@ public class PersonServiceTest {
 	 */
 	@AfterClass
 	public static void tearDownAfterClass() throws Exception {
+		System.out.println("In setUpBeforeClass !");
 	}
 
 	/**
@@ -52,6 +54,7 @@ public class PersonServiceTest {
 	 */
 	@Before
 	public void setUp() throws Exception {
+		System.out.println("In setUpBeforeClass !");
 	}
 
 	/**
@@ -59,6 +62,7 @@ public class PersonServiceTest {
 	 */
 	@After
 	public void tearDown() throws Exception {
+		System.out.println("In setUpBeforeClass !");
 	}
 
 	/**
